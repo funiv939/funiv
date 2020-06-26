@@ -1,0 +1,151 @@
+
+{% extends 'mysite/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV - Lecture</title>{% endblock %}
+
+{% block content %}
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+			<div class="show-top-grids">
+				<div class="col-sm-8 single-left" style="width: 100%">
+					<div class="song">
+						<div class="song-info">
+							<h3>{{ document.title }}</h3>	
+					</div>
+						<div class="video-grid">
+                            {% if exist == False %}
+                                {% if document.user == myprofile.user %}
+                                <video style="width: 100%; height:auto" controls preload="none">
+                                    <source src="{{ document.upload.url }}" type="video/mp4"> </source>
+                                    Your browser does not support the video tag.
+                                </video>
+                                {% else %}
+                                <img src="{{ document.thumbnail.url }}" style="width: 100%; height:auto" alt="" />
+                                {% endif %}
+                            {% else %}
+                            <video style="width: 100%; height:auto" controls preload="none">
+                                <source src="{{ document.upload.url }}" type="video/mp4"> </source>
+                                Your browser does not support the video tag.
+                            </video>
+                            {% endif %}
+                        </div>
+					</div>
+					<div class="song-grid-right">
+						<div class="share">
+                            <br><br><br>
+                            <h5>Teacher</h5>
+                            <ul> 
+                                <li><a href="{% url 'profile' pk=documentprofile.pk %}"><img src="{{ documentprofile.avator.url }}" style="width: 50%; height:auto;" alt="" /></a></li>
+                                <li><a href="{% url 'profile' pk=documentprofile.pk %}">{{ documentprofile.user }}</a></li>
+                            </ul>
+                            <br><br><br>
+							<h5>About</h5>
+							<ul>
+                                <li>Category: {{ document.category }}</li>
+                                <li class="view">{{ document.students.count }} students</li>
+                                {% if document.user == myprofile.user %}
+                                <li><div class="heading-right"><a href="{% url 'documentUpdate' pk=document.pk %}">수정하기</a></div></li>
+                                {% else %}
+                                    {% if exist == True %}
+                                        <li>이미 수강 신청한 강좌</li>
+                                        <!-- <li><a href="{% url 'addUserDocument' pk=document.pk %}">신청하기</a></li> -->
+                                    {% else %}
+                                        <li><div class="heading-right"><a href="{% url 'addUserDocument' pk=document.pk %}">신청하기</a></div></li>
+                                    {% endif %}
+                                {% endif %}
+							</ul>
+						</div>
+					</div>
+                    <div class="clearfix"> </div>
+                    <div style="width: 80%">
+					<div class="published">
+                        <script>
+								$(document).ready(function () {
+									size_li = $("#myList li").size();
+									x=1;
+									$('#myList li:lt('+x+')').show();
+									$('#loadMore').click(function () {
+										x= (x+1 <= size_li) ? x+1 : size_li;
+										$('#myList li:lt('+x+')').show();
+									});
+									$('#showLess').click(function () {
+										x=(x-1<0) ? 1 : x-1;
+										$('#myList li').not(':lt('+x+')').hide();
+									});
+								});
+							</script>
+							<div class="load_more">
+								<ul id="myList">
+									<li>
+										<h4>Uploaded on {{ document.uploaded_at }}</h4>
+										<p>{{ document.content }}</p>
+									</li>
+								</ul>
+							</div>
+					</div>
+					<!-- <div class="all-comments">
+						<div class="all-comments-info">
+							<a href="#">All Comments (8,657)</a>
+							<div class="box">
+								<form>
+									<input type="text" placeholder="Name" required=" ">			           					   
+									<input type="text" placeholder="Email" required=" ">
+									<input type="text" placeholder="Phone" required=" ">
+									<textarea placeholder="Message" required=" "></textarea>
+									<input type="submit" value="SEND">
+									<div class="clearfix"> </div>
+								</form>
+							</div>
+							<div class="all-comments-buttons">
+								<ul>
+									<li><a href="#" class="top">Top Comments</a></li>
+									<li><a href="#" class="top newest">Newest First</a></li>
+									<li><a href="#" class="top my-comment">My Comments</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="media-grids">
+							<div class="media">
+								<h5>Tom Brown</h5>
+								<div class="media-left">
+									<a href="#">
+										
+									</a>
+								</div>
+								<div class="media-body">
+									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
+									<span>View all posts by :<a href="#"> Admin </a></span>
+								</div>
+							</div>
+							<div class="media">
+								<h5>Mark Johnson</h5>
+								<div class="media-left">
+									<a href="#">
+										
+									</a>
+								</div>
+								<div class="media-body">
+									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
+									<span>View all posts by :<a href="#"> Admin </a></span>
+								</div>
+							</div>
+							<div class="media">
+								<h5>Steven Smith</h5>
+								<div class="media-left">
+									<a href="#">
+										
+									</a>
+								</div>
+								<div class="media-body">
+									<p>Maecenas ultricies rhoncus tincidunt maecenas imperdiet ipsum id ex pretium hendrerit maecenas imperdiet ipsum id ex pretium hendrerit</p>
+									<span>View all posts by :<a href="#"> Admin </a></span>
+								</div>
+							</div>
+						</div>
+                    </div> -->
+                    </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+{% endblock %}

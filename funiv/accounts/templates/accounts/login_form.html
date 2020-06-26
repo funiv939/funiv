@@ -1,0 +1,31 @@
+
+{% extends 'mysite/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'css/accounts.css' %}">
+{% endblock css %}
+
+{% block title %}<title>로그인</title>{% endblock %}
+
+{% block content %}
+<div class="panel panel-default user-panel" style="margin-bottom: 50px; margin-top: 50px">
+    <div class="panel-heading">
+        로그인하기
+    </div>
+    <div class="panel-body">
+        <form action="." method="post">
+            {% csrf_token %}
+            {% include 'accounts/partials/form_field.html' with form=form %}
+            <div class="form-actions">
+                <button class="btn btn-primary btn-large" type="submit">로그인하기</button>
+            </div>
+            <a href="/accounts/resend_verify_email/">
+                <div class="link-below-button">인증이메일 재발송</div>
+            </a>
+        </form>
+    </div>
+</div>
+{% endblock content %}

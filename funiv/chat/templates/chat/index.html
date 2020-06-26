@@ -1,0 +1,53 @@
+
+{% extends 'mysite/sidebar.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV</title>{% endblock %}
+
+{% block content %}
+<meta name="viewport" content="width=device-width">
+<link rel='stylesheet' href="{% static 'css/chat.css' %}">
+<div style="margin-left: 3%;margin-right: 3%; margin-bottom: 2%;">
+    <div style="width:50%;">
+        <div class="top_menu">
+            <div id='chat-friend' class="title"></div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+
+    <div id="chat" style="width:50%;height: 80vh;float: left">
+    </div>
+    <div class='chat-list' style="width: 30%;float: left; margin-left:3%">
+        <div class="resent-grid-info recommended-grid-info" style="text-align: center">
+            <h5><a class="title" href="#" onClick="goto(0, 'People');">People</a></h5>
+            모두의 채팅
+        </div>
+        {% for chatlist in chatlists %}
+        <div class="resent-grid-info recommended-grid-info" style="text-align: center">
+            {% if chatlist.user == request.user %}
+            <h5><a class="title" href="#" onClick="goto({{chatlist.pk}}, '{{ chatlist.friend.name }}');">{{ chatlist.friend }}</a></h5>
+            {{ chatlist.friend.name }}
+            {% else %}
+            <h5><a class="title" href="#" onClick="goto({{chatlist.pk}}, '{{ chatlist.user.name }}');">{{ chatlist.user }}</a></h5>
+            {{ chatlist.user.name }}
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="clearfix"> </div>
+<script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $('#chat-friend').append('People')
+    $('#chat').append('<iframe src="{% url 'room' room_name=0 %}" width=100% height=100% frameborder="0" scrolling="no">이 브라우저는 iframe을 지원하지 않습니다.</iframe>');
+</script>
+<script type="text/javascript">
+    function goto( roomNomber, name ) {
+        $('#chat-friend').empty();
+        $('#chat-friend').append(name)
+        $("#chat").empty();
+        $('#chat').append('<iframe src="/chat/' + roomNomber + '" width=100% height=100% frameborder="0" scrolling="no">이 브라우저는 iframe을 지원하지 않습니다.</iframe>');
+    }
+</script>
+{% endblock content %}

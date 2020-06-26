@@ -1,0 +1,98 @@
+
+{% extends 'mysite/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV - profile</title>{% endblock %}
+
+{% block content %}
+
+<div class="developers">
+    <div class="developers-banner">
+        <!-- container -->
+        <div class="container">
+            <div class="developers-info">
+                <img src="{{ profile.avator.url }}" height="150px" width="auto" alt="" />
+                <p></p>
+                <h3>{{ profile.user }}</h3>
+                <p>멋쟁이 토마토. 토마토!</p>
+            </div>
+            {% if not profile.user ==  request.user %}
+            <div class="heading-right" style="float:right;">
+                <a href="{% url 'messageGroup' pk=profile.user.pk %}" style="font-size: 16px;float:right;">Message</a>
+            {% if exist == True %}
+                <a href="{% url 'follow' pk=profile.user.pk %}" style="font-size: 16px;float:right;">UnFollow</a>
+            {% else %}
+                <a href="{% url 'follow' pk=profile.user.pk %}" style="font-size: 16px;float:right;">Follow</a>
+            {% endif %}
+            </div>
+            {% endif %}
+        </div>
+        <!-- //container -->
+    </div>
+    <div class="developers-grids">
+        <!-- container -->
+        <div class="container">
+            <div class="developers-grid">
+                <a>Profile</a>
+                <p>{{ profile.profile }}</p>
+            </div>
+            <div class="developers-grid">
+                <a>Career</a>
+                <p>{{ profile.career }}</p>
+            </div>
+            <div class="developers-grid">
+                <a>Uploaded Lessons</a>
+            </div>
+            {% for document in Mydocuments %}
+            <div class="col-md-2 resent-grid recommended-grid sports-recommended-grid" style="margin-bottom: 20px">
+                    <div class="resent-grid-img recommended-grid-img" style="height: 150px;overflow: hidden;text-align:center;">
+                        <a href="{% url 'documentDetail' pk=document.pk %}"><img alt="" src="{{ document.thumbnail.url }}"  style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 150px !important;"></a>
+                        <div class="time small-time sports-tome">
+                            <p>{{ document.upload.size|filesizeformat }}</p>
+                        </div>
+                        <div class="clck sports-clock">
+                            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                    <div class="resent-grid-info recommended-grid-info">
+                        <h5><a class="title" href="{% url 'documentDetail' pk=document.pk %}">{{ document.title }}</a></h5>
+                        <p class="author"><a class="title" href="{% url 'profile' pk=document.user.pk %}">{{ document.user }}</a></p>
+                        <p class="views">{{ document.students.count }} students</p>
+                    </div>
+                </div>
+            {% endfor %}
+            <div class="clearfix"> </div>
+            <p></p>
+            <div class="developers-grid">
+                <a>Subscribed Lessons</a>
+            </div>
+            {% for document in Listendocuments %}
+            <div class="col-md-2 resent-grid recommended-grid sports-recommended-grid" style="margin-bottom: 20px">
+                    <div class="resent-grid-img recommended-grid-img" style="height: 150px;overflow: hidden;text-align:center;">
+                        <a href="{% url 'documentDetail' pk=document.pk %}"><img alt="" src="{{ document.thumbnail.url }}"  style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 150px !important;"></a>
+                        <div class="time small-time sports-tome">
+                            <p>{{ document.upload.size|filesizeformat }}</p>
+                        </div>
+                        <div class="clck sports-clock">
+                            <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                    <div class="resent-grid-info recommended-grid-info">
+                        <h5><a class="title" href="{% url 'documentDetail' pk=document.pk %}">{{ document.title }}</a></h5>
+                        <p class="author"><a class="title" href="{% url 'profile' pk=document.user.pk %}">{{ document.user }}</a></p>
+                        <p class="views">{{ document.students.count }} students</p>
+                    </div>
+                </div>
+            {% endfor %}
+            {% if profile.user ==  request.user %}
+            <div class="clearfix"> </div>
+            <div class="heading-right" style="float:right;">
+            <a href="{% url 'profileUpdate' pk=profile.user.pk %}" style="font-size: 16px;">Update</a>
+            </div>
+            {% endif %}
+        </div>
+        <!-- //container -->
+    </div>
+</div>
+{% endblock %}

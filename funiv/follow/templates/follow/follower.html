@@ -1,0 +1,29 @@
+
+{% extends 'mysite/sidebar.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV - followers</title>{% endblock %}
+
+{% block content %}
+<div class="developers">
+<div class="developers-grids">
+    <!-- container -->
+    <div class="container" style="width: 100%">
+    <div class="developers-grid">
+        <a>My followers {{ followers.count }}</a>
+    </div>
+    {% for following in followers %}
+    <div class="col-md-2 resent-grid recommended-grid sports-recommended-grid" style="margin-bottom: 20px">
+        <div class="resent-grid-img recommended-grid-img" style="height: 150px;overflow: hidden;text-align:center;">
+            <a href="{% url 'profile' pk=following.user.pk %}"><img alt="" src="{{ following.user.avator.url }}"  style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 150px !important;border-radius: 100%;"></a>
+        </div>
+        <div class="resent-grid-info recommended-grid-info" style="text-align: center">
+            <h5><a class="title" href="{% url 'profile' pk=following.user.pk %}">{{ following.user.user }}</a></h5>
+        </div>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+</div>
+{% endblock content %}

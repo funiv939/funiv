@@ -1,0 +1,42 @@
+{% extends 'mysite/sidebar.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV</title>{% endblock %}
+
+{% block content %}
+<div class="main-grids">
+    <div class="recommended">
+        <div class="recommended-grids english-grid">
+            <div class="recommended-info">
+                <div class="heading">
+                    <h3>{{ categoryName }}</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+            {% for document in documents %}
+            <div class="col-md-2 resent-grid recommended-grid sports-recommended-grid">
+                <div class="resent-grid-img recommended-grid-img" style="height: 200px;overflow: hidden;text-align:center;">
+                    <a href="{% url 'documentDetail' pk=document.pk %}"><img alt="" src="{{ document.thumbnail.url }}" style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 200px !important;"></a>
+                    <div class="time small-time sports-tome">
+                        <p>{{ document.upload.size|filesizeformat }}</p>
+                    </div>
+                    <div class="clck sports-clock">
+                        <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                    </div>
+                </div>
+                <div class="resent-grid-info recommended-grid-info">
+                    <h5><a class="title" href="{% url 'documentDetail' pk=document.pk %}">{{ document.title }}</a></h5>
+                    <p class="author"><a class="author" href="{% url 'profile' pk=document.user.pk %}">{{ document.user }}</a></p>
+                    <p class="views">{{ document.students.count }} students</p>
+                </div>
+            </div>
+            {% endfor %}
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+    <div class="recommended">
+        <div class="clearfix"> </div>
+    </div>
+</div>
+{% endblock content %}

@@ -1,0 +1,29 @@
+{% extends 'mysite/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>Upload</title>{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="{% static 'fonts/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'fonts/Linearicons-Free-v1.0.0/icon-font.min.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+{{ block.super }}
+{% endblock css %}
+
+<link rel="icon" type="image/png" href="{% static 'img/icons/favicon.ico' %}"/>
+
+{% block content %}
+<div class="upload">
+    <!-- container -->
+    <div class="container">
+        <form method="post" enctype="multipart/form-data" >
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" style="font-size: 16px">Submit</button>
+		</form>
+</div>
+<!-- //container -->
+</div>
+{% endblock content %}

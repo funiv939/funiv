@@ -1,0 +1,111 @@
+
+{% extends 'mysite/sidebar.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>FUNIV</title>{% endblock %}
+
+{% block content %}
+			<div class="main-grids">
+				<div class="top-grids">
+					<div class="recommended-info">
+						<h3>BEST CLASS</h3>
+                    </div>
+                    {% for document in Bestdocuments %}
+                        <div class="col-md-4 resent-grid recommended-grid slider-top-grids">
+                            <div class="resent-grid-img recommended-grid-img" style="height: 280px;overflow: hidden;text-align:center;">
+                                <a href="{% url 'documentDetail' pk=document.pk %}"><img src="{{ document.thumbnail.url }}" style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 280px !important;" alt="" /></a>
+                                <div class="time">
+                                    <p>{{ document.upload.size|filesizeformat }}</p>
+                                </div>
+                                <div class="clck">
+                                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                            <div class="resent-grid-info recommended-grid-info">
+                                <h3><a href="{% url 'documentDetail' pk=document.pk %}" class="title title-info">{{ document.title }}</a></h3>
+                                <ul>
+                                    <li><p class="author author-info"><a href="{% url 'profile' pk=document.user.pk %}" class="author">{{ document.user }}</a></p></li>
+                                    <li class="right-list"><p class="views views-info">{{ document.students.count }} students</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    {% endfor %}
+					<div class="clearfix"> </div>
+				</div>
+				<div class="recommended">
+					<div class="recommended-grids">
+						<div class="recommended-info">
+							<h3>NEW CLASS</h3>
+						</div>
+						<script src="{% static 'js/responsiveslides.min.js' %}"></script>
+						 <script>
+							// You can also use "$(window).load(function() {"
+							$(function () {
+							  // Slideshow 4
+							  $("#slider3").responsiveSlides({
+								auto: true,
+								pager: false,
+								nav: true,
+								speed: 500,
+								namespace: "callbacks",
+								before: function () {
+								  $('.events').append("<li>before event fired.</li>");
+								},
+								after: function () {
+								  $('.events').append("<li>after event fired.</li>");
+								}
+							  });
+						
+							});
+						  </script>
+						<div  id="top" class="callbacks_container">
+							<ul class="rslides" id="slider3">
+                                {% for document in Newdocuments %}
+                                    {% if forloop.counter0|divisibleby:4 %}
+                                        {% if not forloop.first %}
+                                                <div class="clearfix"> </div>
+                                            </div>
+                                        </li>
+                                        {% endif %}
+                                        <li>
+                                            <div class="animated-grids">
+                                    {% endif %}
+                                        <div class="col-md-3 resent-grid recommended-grid slider-first">
+                                            <div class="resent-grid-img recommended-grid-img" style="height: 240px;overflow: hidden;text-align:center;">
+                                                <a href="{% url 'documentDetail' pk=document.pk %}"><img src="{{ document.thumbnail.url }}" style="left: 50%;margin-left: -100%;position: relative;width: auto !important;height: 240px !important;" alt="" /></a>
+                                                <div class="time small-time slider-time">
+                                                    <p>{{ document.upload.size|filesizeformat }}</p>
+                                                </div>
+                                                <div class="clck small-clck">
+                                                    <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+                                                </div>
+                                            </div>
+                                            <div class="resent-grid-info recommended-grid-info">
+                                                <h5><a href="{% url 'documentDetail' pk=document.pk %}" class="title">{{ document.title }}</a></h5>
+                                                <div class="slid-bottom-grids">
+                                                    <div class="slid-bottom-grid">
+                                                        <p class="author author-info"><a href="{% url 'profile' pk=document.user.pk %}" class="author">{{ document.user }}</a></p>
+                                                    </div>
+                                                    <div class="slid-bottom-grid slid-bottom-right">
+                                                        <p class="views views-info">{{ document.students.count }} students</p>
+                                                    </div>
+                                                    <div class="clearfix"> </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {% if forloop.last %}
+                                                <div class="clearfix"> </div>
+                                            </div>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+							</ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommended">
+                    <div class="clearfix"> </div>
+                </div>
+			</div>
+    {% endblock content %}

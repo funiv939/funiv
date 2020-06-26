@@ -1,0 +1,1786 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:36:44 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:36:50 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:36:56 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:37:02 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:37:08 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:37:17 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 21:37:26 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: enabled
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:09:54 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/django/funiv.sock fd 3
+setuid() to 1000
+Python version: 3.7.3 (default, Apr 30 2019, 22:50:54)  [GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+PEP 405 virtualenv detected: /home/ec2-user/django/myvenv
+Set PythonHome to /home/ec2-user/django/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x14e4520
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+/home/ec2-user/django/myvenv/lib64/python3.7/site-packages/storages/backends/s3boto3.py:282: UserWarning: The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0. By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable). Version 2.0 will default to using the bucket's ACL. To opt into the new behavior set AWS_DEFAULT_ACL = None, otherwise to silence this warning explicitly set AWS_DEFAULT_ACL.
+  "The default behavior of S3Boto3Storage is insecure and will change "
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x14e4520 pid: 14629 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14629)
+spawned uWSGI worker 1 (pid: 14630, cores: 1)
+spawned uWSGI worker 2 (pid: 14631, cores: 1)
+spawned uWSGI worker 3 (pid: 14632, cores: 1)
+spawned uWSGI worker 4 (pid: 14633, cores: 1)
+spawned uWSGI worker 5 (pid: 14634, cores: 1)
+Sat Aug 10 22:20:04 2019 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 14630)...
+Gracefully killing worker 2 (pid: 14631)...
+Gracefully killing worker 3 (pid: 14632)...
+Gracefully killing worker 4 (pid: 14633)...
+Gracefully killing worker 5 (pid: 14634)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/sites
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ec2-user/django/funiv.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 7) ***
+[uWSGI] getting INI configuration from funiv.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:20:05 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ec2-user/django/funiv.sock fd 3
+Python version: 3.7.3 (default, Apr 30 2019, 22:50:54)  [GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+PEP 405 virtualenv detected: /home/ec2-user/django/myvenv
+Set PythonHome to /home/ec2-user/django/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xc66340
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+/home/ec2-user/django/myvenv/lib64/python3.7/site-packages/storages/backends/s3boto3.py:282: UserWarning: The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0. By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable). Version 2.0 will default to using the bucket's ACL. To opt into the new behavior set AWS_DEFAULT_ACL = None, otherwise to silence this warning explicitly set AWS_DEFAULT_ACL.
+  "The default behavior of S3Boto3Storage is insecure and will change "
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xc66340 pid: 14629 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 14629)
+spawned uWSGI worker 1 (pid: 14759, cores: 1)
+spawned uWSGI worker 2 (pid: 14760, cores: 1)
+spawned uWSGI worker 3 (pid: 14761, cores: 1)
+spawned uWSGI worker 4 (pid: 14762, cores: 1)
+spawned uWSGI worker 5 (pid: 14763, cores: 1)
+Sat Aug 10 22:41:25 2019 - received message 1 from emperor
+...gracefully killing workers...
+Gracefully killing worker 1 (pid: 14759)...
+Gracefully killing worker 2 (pid: 14760)...
+Gracefully killing worker 3 (pid: 14761)...
+Gracefully killing worker 4 (pid: 14762)...
+Gracefully killing worker 5 (pid: 14763)...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /etc/uwsgi/sites
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (/home/ec2-user/django/funiv.sock)
+running /usr/local/bin/uwsgi
+*** has_emperor mode detected (fd: 7) ***
+[uWSGI] getting INI configuration from funiv.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:41:26 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/ec2-user/django/funiv.sock fd 3
+Python version: 3.7.3 (default, Apr 30 2019, 22:50:54)  [GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+PEP 405 virtualenv detected: /home/ec2-user/django/myvenv
+Set PythonHome to /home/ec2-user/django/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d863f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+/home/ec2-user/django/myvenv/lib64/python3.7/site-packages/storages/backends/s3boto3.py:282: UserWarning: The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0. By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable). Version 2.0 will default to using the bucket's ACL. To opt into the new behavior set AWS_DEFAULT_ACL = None, otherwise to silence this warning explicitly set AWS_DEFAULT_ACL.
+  "The default behavior of S3Boto3Storage is insecure and will change "
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d863f0 pid: 14629 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 14629)
+spawned uWSGI worker 1 (pid: 14879, cores: 1)
+spawned uWSGI worker 2 (pid: 14880, cores: 1)
+spawned uWSGI worker 3 (pid: 14881, cores: 1)
+spawned uWSGI worker 4 (pid: 14882, cores: 1)
+spawned uWSGI worker 5 (pid: 14883, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:53:27 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:53:33 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:53:39 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:53:45 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:53:51 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:00 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:09 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:18 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:30 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+SIGINT/SIGQUIT received...killing workers...
+Sat Aug 10 22:54:34 2019 - received message 0 from emperor
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM WARNING: unix socket /home/ec2-user/django/funiv.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:37 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:37 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ec2-user/django/funiv.sock fd 3
+setuid() to 1000
+Python version: 3.7.3 (default, Apr 30 2019, 22:50:54)  [GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+PEP 405 virtualenv detected: /home/ec2-user/django/myvenv
+Set PythonHome to /home/ec2-user/django/myvenv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a2b8d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437520 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+/home/ec2-user/django/myvenv/lib64/python3.7/site-packages/storages/backends/s3boto3.py:282: UserWarning: The default behavior of S3Boto3Storage is insecure and will change in django-storages 2.0. By default files and new buckets are saved with an ACL of 'public-read' (globally publicly readable). Version 2.0 will default to using the bucket's ACL. To opt into the new behavior set AWS_DEFAULT_ACL = None, otherwise to silence this warning explicitly set AWS_DEFAULT_ACL.
+  "The default behavior of S3Boto3Storage is insecure and will change "
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1a2b8d0 pid: 15053 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15053)
+spawned uWSGI worker 1 (pid: 15055, cores: 1)
+spawned uWSGI worker 2 (pid: 15056, cores: 1)
+spawned uWSGI worker 3 (pid: 15057, cores: 1)
+spawned uWSGI worker 4 (pid: 15058, cores: 1)
+spawned uWSGI worker 5 (pid: 15059, cores: 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:37 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:43 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:49 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:54:55 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:04 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:14 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:23 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:35 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:47 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:55:59 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:56:14 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:56:29 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:56:44 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+Sat Aug 10 22:56:56 2019 - received message 0 from emperor
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 5 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): Permission denied [core/uwsgi.c line 1660]
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:56:58 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:04 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:10 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:16 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:25 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:34 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:42 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:48 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:57:54 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:00 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:09 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:18 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:27 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:36 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:48 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:58:54 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:00 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:06 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:12 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:18 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:21 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:27 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:33 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:39 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:45 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 22:59:54 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:00:03 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:00:12 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:00:24 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:00:36 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:00:48 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:01:03 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:01:18 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:01:33 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:01:51 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:02:09 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:02:27 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:02:49 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:03:10 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:03:31 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:03:55 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:04:19 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:04:43 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:05:10 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:05:37 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:06:04 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:06:34 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:07:04 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:07:34 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:08:07 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:08:40 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:09:13 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:09:49 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:10:25 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:11:01 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:11:40 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:12:19 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 10 23:12:58 2019] ***
+compiled with version: 7.3.1 20180303 (Red Hat 7.3.1-5) on 22 July 2019 09:33:02
+os: Linux-4.14.123-111.109.amzn2.x86_64 #1 SMP Mon Jun 10 19:37:57 UTC 2019
+nodename: ip-172-31-43-159.ap-northeast-2.compute.internal
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /etc/uwsgi/sites
+detected binary path: /usr/local/bin/uwsgi
+chdir() to /home/ec2-user/django
+your processes number limit is 3794
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+unable to find group www-data
+VACUUM WARNING: unix socket /home/ec2-user/django/uwsgi.sock changed inode. Skip removal

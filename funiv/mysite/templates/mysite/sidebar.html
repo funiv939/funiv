@@ -1,0 +1,107 @@
+
+{% extends 'mysite/base.html' %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}<title>로그인</title>{% endblock %}
+
+{% block sidebar %}
+<div class="col-sm-3 col-md-2 sidebar">
+			<div class="top-navigation">
+				<div class="t-menu">MENU</div>
+				<div class="t-img">
+					<img src="{% static 'img/lines.png' %}" alt="" />
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+            {% if not request.user.is_authenticated %}
+            {% else %}
+			<div class="drop-navigation drop-navigation" style="height: 40%">
+			  <ul class="nav nav-sidebar">
+				<li><span class="glyphicon" aria-hidden="true"></span> </li>
+				<li>
+                        <li><center><img style="width:auto;height:150px;"src="{{ myprofile.avator.url }}" alt="" /></center></li>
+                        <li><a href="{% url 'profile' pk=myprofile.user.pk %}"><span style="color:white;font-size:16px;margin-top:10px;" class="glyphicon" aria-hidden="true">{{ request.user }}</span></a></li>
+                        <p></p>
+                        <li><a href="{% url 'followerList' %}"><span style="color:white;font-size:16px;margin-top:10px;" class="glyphicon" aria-hidden="true">Followers {{ follower.count }}</span></a></li>
+                        <p></p>
+                        <li><a href="{% url 'followingList' %}"><span style="color:white;font-size:16px;margin-top:10px;" class="glyphicon" aria-hidden="true">Following {{ follows.followings.count }}</span></a></li>
+                        <p></p>
+                        <li><a href="{% url 'chat' %}"><span style="color:white;font-size:16px;margin-top:10px;" class="glyphicon" aria-hidden="true">Message</span></a></li>
+                        
+                </li>
+			  </ul>
+            </div>       
+            {% endif %}     
+			<div class="drop-navigation drop-navigation">
+			  <ul class="nav nav-sidebar">
+                {% if categoryName is None %}
+				<li class="active"><a href="{% url 'home' %}" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>전체보기</a></li>
+                {% else %}
+                <li><a href="{% url 'home' %}" class="home-icon"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>전체보기</a></li>
+                {% endif %}
+
+                {% for category in categorys %}
+                    {% if category.category == categoryName %}
+                    <li class="active"><a href="{% url 'category' pk=category.category %}" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>{{ category.category }}</a></li>
+                    {% else %}
+                    <li><a href="{% url 'category' pk=category.category %}" class="user-icon"><span class="glyphicon glyphicon-home glyphicon-blackboard" aria-hidden="true"></span>{{ category.category }}</a></li>
+                    {% endif %}
+                {% endfor %}
+              </ul>
+              <!-- script-for-menu -->
+						<script>
+							$( ".top-navigation" ).click(function() {
+							$( ".drop-navigation" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
+				<div class="side-bottom">
+					<div class="side-bottom-icons">
+						<ul class="nav2">
+							<li><a href="#" class="facebook"> </a></li>
+							<li><a href="#" class="facebook twitter"> </a></li>
+							<li><a href="#" class="facebook chrome"> </a></li>
+							<li><a href="#" class="facebook dribbble"> </a></li>
+						</ul>
+					</div>
+					<div class="copyright">
+						<p>Copyright © 2019 FUNIV. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+					</div>
+				</div>
+			</div>
+        </div>    
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+{% endblock sidebar %}
+
+
+        
+{% block footer %}
+<div class="footer">
+    <div class="footer-grids">
+        <div class="footer-top">
+            <div class="footer-top-nav">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Creators</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Developers</a></li>
+                </ul>
+            </div>
+            <div class="footer-bottom-nav">
+                <ul>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#" class="play-icon popup-with-zoom-anim">Send feedback</a></li>
+                    <li><a href="#">Policy & Safety </a></li>
+                    <li><a href="#">Try something new!</a></li>
+                    <li><p>Copyright © 2019 FUNIV. All Rights Reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock footer %}
